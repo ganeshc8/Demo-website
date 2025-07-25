@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SocialPro Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SocialPro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="display-4">Empower Your Brand Online</h1>
+      <p class="lead">Modern strategies. Real engagement. Proven results.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Let’s Talk</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Us</h2>
+      <p class="lead">SocialPro is a full-service social media marketing agency helping brands connect, engage, and grow through targeted campaigns.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="service-card p-4 rounded">
+            <h5>Social Media Management</h5>
+            <p>We create, schedule, and analyze content to build an engaged community on platforms like Instagram, Facebook, LinkedIn, and more.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="service-card p-4 rounded">
+            <h5>Influencer Marketing</h5>
+            <p>We connect your brand with authentic voices that drive conversions through sponsored posts, stories, and product placements.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="service-card p-4 rounded">
+            <h5>Ad Campaigns</h5>
+            <p>From Meta Ads to Google campaigns, we build data-driven strategies that deliver measurable results and a high ROI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+<section id="portfolio" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Work</h2>
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card portfolio-card h-100">
+           <img src="images/fashion.jpg" class="card-img-top" alt="Fashion Brand">
+          <div class="card-body">
+            <h5 class="card-title">Fashion Brand Launch</h5>
+            <p class="card-text">We helped a clothing startup gain 15k followers in 3 months with influencer reels and ad campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card portfolio-card h-100">
+           <img src="images/food.jpg" class="card-img-top" alt="Food Startup">
+          <div class="card-body">
+            <h5 class="card-title">Food Startup Campaign</h5>
+            <p class="card-text">Designed a viral video strategy and managed Instagram ads for a new organic snacks brand.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card portfolio-card h-100">
+           <img src="images/fitness.jpg" class="card-img-top" alt="Fitness App">
+          <div class="card-body">
+            <h5 class="card-title">Fitness App Growth</h5>
+            <p class="card-text">Built a strong online community through content, challenges & collaborations with micro-influencers.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Get in Touch</h2>
+      <div class="row">
+        
+        <!-- Contact Form -->
+        <div class="col-md-6 mb-4">
+          <form class="p-4 rounded shadow-sm bg-white">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Type your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-md-6 mb-4">
+          <div class="map-container rounded shadow-sm">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.586695331866!2d73.8567431752048!3d18.495603470542474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c077ab8e3ab9%3A0xb0c9f7ddfb1b328e!2sJM%20Road%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1625488667481!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 SocialPro. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

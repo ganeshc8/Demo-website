@@ -1,0 +1,158 @@
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.hero .btn {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+}
+
+
+/* Navbar brand */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+  backdrop-filter: blur(10px);
+  background-color: rgba(40, 40, 60, 0.7); /* Semi-transparent dark */
+  transition: background-color 0.3s ease;
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c6b1ff !important;
+}
+
+
+/* Section Headings */
+section h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 5px solid #007bff;
+  padding-left: 1rem;
+}
+
+/* Footer */
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.service-card {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #2d2d2d;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(90, 90, 200, 0.3);
+}
+
+.service-card h5 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background: linear-gradient(to right, #f3f2ff, #e5e9ff);
+}
+
+.contact-section h2 {
+  font-weight: 700;
+  color: #4b0082;
+}
+
+form {
+  background-color: #ffffff;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form .btn {
+  background-color: #6a11cb;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+form .btn:hover {
+  background-color: #5722aa;
+}
+
+.map-container {
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.portfolio-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(80, 60, 200, 0.2);
+}
+
+.portfolio-card img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  object-fit: cover;
+  height: 240px;
+}
+
